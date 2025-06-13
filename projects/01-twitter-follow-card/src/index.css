@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background: black;
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.container {
+  border: solid 1px rgb(100, 100, 100);
+  padding: 0px 16px 16px 16px;
+  border-radius: 20px;
+  background: black;
+  width: 300px;
+}
+
+.container-title {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
